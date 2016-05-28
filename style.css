@@ -3,29 +3,39 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  color: white;
+  font-size: 3vmin;
+  font-weight: 300;
+  display:inline-block
+}
 
 .header1 {
   color: #323234;
-  font-size: 72px;
   font-family: 'Roboto';
   font-weight: 200;
   font-size: 12vmin;
 }
 
 .svg-right {
-  float: right;
-  width: inherit;
-  height: 40vmax;
+  vertical-align: right;
+  width: 80vmin;
 }
 
 .card {
-  width: 60vmin;
+  width: 80vmin;
   background-color: #caa571;
-  float: right;
+  vertical-align: center;
+}
+
+.card-content {
+  background-color: #caa571;
+  color: #323234;
 }
 
 .header2 {
   color: #323234;
+  font-weight: 300;
   font-size: 6vmin;
 }
 
@@ -52,4 +62,5 @@ body {
   height: 100vh;
   background-color: #323234;
   padding: 5%;
+  position: relative;
 }
