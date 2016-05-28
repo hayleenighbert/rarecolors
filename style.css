@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
 .header1 {
   color: #323234;
   font-size: 72px;
@@ -11,24 +12,44 @@ body {
   font-size: 12vmin;
 }
 
+.svg-right {
+  float: right;
+  width: inherit;
+  height: 40vmax;
+}
+
+.card {
+  width: 60vmin;
+  background-color: #caa571;
+  float: right;
+}
+
 .header2 {
   color: #323234;
   font-size: 6vmin;
 }
 
+.z-depth-0 {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0);
+  height: 50px;
+}
+
 .nav-wrapper {
   background-color: #D8D8D8;
   padding: 0 30px 0 30px;
-  height: 75px;
+  height: 50px;
 }
 
 .main-container {
   background-color: #BDBDBD;
   height: 100vh;
+  padding: 5%;
 }
 
 .sub-container {
-  height: 40vh;
+  height: 100vh;
   background-color: #323234;
-  padding-top: 5%;
+  padding: 5%;
 }
