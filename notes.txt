@@ -1,0 +1,7 @@
+Color palette:
+
+red oxide 915652
+green oxide 6c9e7b
+yellow ochre d9be87
+metallic brown caa571
+mineral black 323234
