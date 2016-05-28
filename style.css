@@ -1,29 +1,30 @@
 body {
   background-color: #BDBDBD;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+.header1 {
   color: #323234;
-  font-size: 28px;
+  font-size: 72px;
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-size: 12vmin;
 }
 
-h2 {
-  color: #d9be87;
-  font-size: 24px;
-}
-
-.nav {
-  height: 10%;
+.header2 {
+  color: #323234;
+  font-size: 6vmin;
 }
 
 .nav-wrapper {
   background-color: #D8D8D8;
+  padding: 0 30px 0 30px;
+  height: 75px;
 }
 
 .main-container {
   background-color: #BDBDBD;
-  height: 50vh;
+  height: 100vh;
 }
 
 .sub-container {
