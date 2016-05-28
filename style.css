@@ -1,0 +1,33 @@
+body {
+  background-color: #BDBDBD;
+  font-family: Roboto;
+}
+
+h1 {
+  color: #323234;
+  font-size: 28px;
+}
+
+h2 {
+  color: #d9be87;
+  font-size: 24px;
+}
+
+.nav {
+  height: 10%;
+}
+
+.nav-wrapper {
+  background-color: #D8D8D8;
+}
+
+.main-container {
+  background-color: #BDBDBD;
+  height: 50vh;
+}
+
+.sub-container {
+  height: 40vh;
+  background-color: #323234;
+  padding-top: 5%;
+}
