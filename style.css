@@ -5,9 +5,10 @@ body {
 
 p {
   color: white;
-  font-size: 3vmin;
+  font-size: 5vmin;
   font-weight: 300;
   display:inline-block;
+  word-wrap: break-word;
 }
 
 .header1 {
@@ -15,29 +16,31 @@ p {
   font-family: 'Roboto';
   font-weight: 200;
   font-size: 12vmin;
-}
-
-.svg-right {
-  vertical-align: right;
-  width: 80vmin;
-}
-
-.card {
-  width: 80vmin;
-  background-color: #caa571;
-  vertical-align: center;
-}
-
-.card-content {
-  background-color: #caa571;
-  color: #323234;
+  word-wrap: break-word;
 }
 
 .header2 {
   color: #323234;
   font-weight: 300;
-  font-size: 6vmin;
+  font-size: 8vmin;
 }
+
+.svg-right {
+  width: 100%;
+  margin-top:10%;
+  margin-left: 5%;
+}
+
+.card {
+  background-color: #caa571;
+}
+
+.card-content {
+  background-color: #caa571;
+  color: #323234;
+  word-wrap: break-word;
+}
+
 
 .z-depth-0 {
   -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
@@ -55,12 +58,13 @@ p {
 .main-container {
   background-color: #BDBDBD;
   height: 100vh;
+  overflow:hidden;
   padding: 5%;
 }
 
 .sub-container {
-  height: 100vh;
   background-color: #323234;
+  height: 100vh;
+  overflow:hidden;
   padding: 5%;
-  position: relative;
 }
