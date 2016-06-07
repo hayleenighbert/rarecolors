@@ -9,12 +9,13 @@ p {
   font-weight: 300;
   float: center;
   word-wrap: break-word;
+
 }
 
 .header1 {
   color: #323234;
   font-family: 'Roboto';
-  font-weight: 200;
+  font-weight: 100;
   font-size: 12vmin;
   word-wrap: break-word;
 }
