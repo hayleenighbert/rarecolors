@@ -5,9 +5,9 @@ body {
 
 p {
   color: white;
-  font-size: 5vmin;
+  font-size: 3vmin;
   font-weight: 300;
-  display:inline-block;
+  float: center;
   word-wrap: break-word;
 }
 
@@ -22,23 +22,23 @@ p {
 .header2 {
   color: #323234;
   font-weight: 300;
-  font-size: 8vmin;
-}
-
-.svg-right {
-  width: 100%;
-  margin-top:10%;
-  margin-left: 5%;
+  font-size: 7vmin;
+  word-wrap: break-word;
 }
 
 .card {
   background-color: #caa571;
+  height: 50%;
 }
 
 .card-content {
   background-color: #caa571;
   color: #323234;
   word-wrap: break-word;
+}
+
+.svg {
+  /*padding: inherit;*/
 }
 
 
@@ -55,16 +55,42 @@ p {
   height: 50px;
 }
 
-.main-container {
+.light-container {
   background-color: #BDBDBD;
   height: 100vh;
   overflow:hidden;
-  padding: 5%;
+  padding: 10%;
+  margin: 0 auto;
 }
 
-.sub-container {
+.dark-container {
   background-color: #323234;
   height: 100vh;
   overflow:hidden;
-  padding: 5%;
+  padding: 10%;
+  margin: 0 auto;
+}
+
+.screen-only
+{
+display: block;
+}
+
+.mobile-only
+{
+display: none;
+}
+
+@media screen and (max-width: 480px)
+
+{
+
+.screen-only
+{
+display: none;
+}
+
+.mobile-only
+{
+display: block;
 }
