@@ -20,11 +20,13 @@ p {
   word-wrap: break-word;
 }
 
+
 .header2 {
   color: #323234;
   font-weight: 300;
   font-size: 7vmin;
   word-wrap: break-word;
+  padding-top: 5%;
 }
 
 .card {
@@ -59,15 +61,12 @@ p {
 .light-container {
   background-color: #BDBDBD;
   height: 100vh;
-  overflow:hidden;
   padding: 10%;
   margin: 0 auto;
 }
 
 .dark-container {
   background-color: #323234;
-  height: 100vh;
-  overflow:hidden;
   padding: 10%;
   margin: 0 auto;
 }
